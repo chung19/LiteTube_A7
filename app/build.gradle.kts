@@ -32,7 +32,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("com.google.android.material:material:1.12.0")
 
-    val media3Version = "1.10.1"
+    val media3Version = "1.9.0"
 
     implementation("androidx.media3:media3-exoplayer:$media3Version")
     implementation("androidx.media3:media3-session:$media3Version")
@@ -41,5 +41,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.github.teamnewpipe:NewPipeExtractor:v0.26.2")
 
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs_nio:2.1.4")
+    coreLibraryDesugaring(
+        "com.android.tools:desugar_jdk_libs_nio:2.1.4"
+    )
 }
