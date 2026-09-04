@@ -1,0 +1,5 @@
+This project template uses NewPipe Extractor as a dependency.
+NewPipe Extractor is licensed under GPL-3.0-or-later.
+Review and comply with its license before distributing binaries.
+
+AndroidX Media3 is used for playback/background media service.
